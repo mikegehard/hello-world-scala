@@ -1,0 +1,9 @@
+---
+applications:
+- name: hello-world-scala
+  framework: play
+  runtime: java7
+  memory: 512M
+  instances: 1
+  url: hello-world-scala.${target-base}
+  path: dist/hello-world-scacala-1.0-SNAPSHOT.zip
